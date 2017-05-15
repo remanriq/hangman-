@@ -1,19 +1,23 @@
 
 //make Array of Word Options (all lowercase)
-Word {};
-game.WordArray[];
-game.uWordArray[];
+var word1 = ["humble"]
+var word1=["_","_","_","_","_","_",]
+var word2=["angels"]
+var word2 =["_ ","_ ","_ ","_ ","_ ","_ ",]
+var word3 = ["definition"]
+var word3 =["_ ","_ ","_ ","_ ","_ ","_ ","_ ","_ ","_ ","_ ",]
 
-game.attempts = 3;
-game.inWordBank = WordArray.length;
+var alphabet=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o",
+"p","q","r","s","t","u","v","x","y","z",]
 
-game.Word="kendrick";
-game.WordU="";
-
-game.PullSong = function(){
-  game.word=game.wordList([math.floor(math.random() * game.inWordBank))];
-
+function startgame(userkey){
+  if 
 }
+
+
+
+
+
 
 
 // startGame()
